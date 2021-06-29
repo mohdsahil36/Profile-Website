@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family:'PT Sans', sans-serif;
+    line-height: 1.7;
+}
+ul li{
+    list-style: none;
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+p, li{
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+h1,h2,h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.10em;
+    font-weight: 500;
+}
+.lg-heading{
+    font-size: 3.5rem;
+}
+.nav-items{
+    margin-top: 2rem;
+    padding-right: 8.5rem;
+}
+.nav-item{
+    padding-right: 3.5rem;
+}
+
+
+
+
+
+
+
+
+.header{
+    height: 95vh;
+    background: url('../images/header2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .logo,
+.header .navbar a{
+    color: white;
+}
+.header .navbar .logo{
+    float:left;
+    font-size: 2.75rem;
+    padding-left: 5em;
+    margin-top: 1rem;
+}
+.header .navbar .nav-items{
+    float: right;
+}
+.header .navbar .nav-item{
+    display: inline-block;
+}
+.navbar::after{
+    display: block;
+    content: '';
+    clear: both;
+}
